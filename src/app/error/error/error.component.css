@@ -1,0 +1,10 @@
+:host{
+  padding: 5px;
+  text-align: center;
+}
+
+button{
+  margin-top: 5px !important;
+  margin:auto;
+  display: block;
+}

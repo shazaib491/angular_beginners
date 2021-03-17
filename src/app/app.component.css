@@ -1,0 +1,44 @@
+ul{
+  display: flex;
+}
+mat-sidenav-container
+{
+
+  height: 100%;
+}
+mat-sidenav{
+  width:15%;
+}
+mat-sidenav,
+mat-nav-list > a{
+  border-right:3px solid blue;
+}
+mat-sidenav-content
+{
+padding: 16px;
+}
+.custom-color{
+  background-color: #E91E63;
+  color:whitesmoke;
+
+}
+ul{
+  text-decoration:none;
+  list-style-type: none;
+
+}
+a{
+  color: white;
+  text-decoration: inherit;
+}
+.spacer{
+  flex: 1 1 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  mat-sidenav{
+    width:50%;
+  }
+}
+
+
